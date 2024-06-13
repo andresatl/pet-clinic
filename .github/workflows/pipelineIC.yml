@@ -18,7 +18,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Hola Mundo
+    - name: Hola MundO
       run: | 
         echo 'Hola mundo!'
     
