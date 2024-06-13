@@ -78,8 +78,7 @@ jobs:
         -Dsonar.projectKey=${{ github.event.repository.name }} \
         -Dsonar.organization=andresatl \
         -Dsonar.host.url=https://sonarcloud.io \
-        -Dsonar.login=${{ secrets.SONAR_TOKEN }} \
-        -Dsonar.branch.name=
+        -Dsonar.token=${{ secrets.SONAR_TOKEN}} \
 
 
 #--------------------- SCA -------------------------------------------
